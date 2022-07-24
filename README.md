@@ -61,7 +61,7 @@ Para emulação da aplicação é necessário ter [AndroidStudio](https://develo
 
 #### 🧭 Iniciando a aplicação
 
-É preciso criar uma conta no serviço **Firebase**, ter configurado **GoogleService-Info.plist** e o **google-services.json** deacordo com as documentações dadas no site [Firebase](https://firebase.google.com/).
+É preciso criar uma conta no serviço **Firebase**, ter configurado **GoogleService-Info.plist** e o **google-services.json** de acordo com as documentações dadas no site [Firebase](https://firebase.google.com/).
 
 ```bash
 # Clone este repositório
