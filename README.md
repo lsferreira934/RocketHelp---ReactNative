@@ -10,7 +10,7 @@
    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?style=for-the-badge">
 
    <a href="https://github.com/lsferreira934/RocketHelp---ReactNative/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/lsferreira934/ignite-lab-react?style=for-the-badge">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/lsferreira934/RocketHelp---ReactNative?style=for-the-badge">
   </a>
 </p>
 
@@ -66,7 +66,7 @@ Editor usado para desenvolvimento da aplicação [VSCode](https://code.visualstu
 # Clone este repositório
 $ git clone https://github.com/lsferreira934/RocketHelp---ReactNative.git
 # Acesse a pasta do projeto no seu terminal/cmd
-$ cd ignite-lab-react
+$ cd RocketHelp---ReactNative
 # Instale as dependências
 $ npm install
 # ou
