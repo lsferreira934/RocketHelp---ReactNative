@@ -3,7 +3,7 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/lsferreira934/RocketHelp---ReactNative?style=for-the-badge" />
 
-  <a href="https://github.com/lsferreira934/RocketHelp---ReactNative/commits/main">
+  <a href="https://github.com/lsferreira934/RocketHelp---ReactNative/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/lsferreira934/RocketHelp---ReactNative?style=for-the-badge" />
   </a>
 
@@ -15,7 +15,7 @@
 </p>
 
 <h1 align="center">
-    <img alt="Ignite-Lab" title="#Ignite-Lab" src="https://github.com/lsferreira934/RocketHelp---ReactNative/blob/master/src/assets/logo.png" width="200px" />
+    <img alt="Ignite-Lab" title="#Ignite-Lab" src="https://github.com/lsferreira934/RocketHelp---ReactNative/blob/master/src/assets/logo_secondary.svg" width="200px" />
 </h1>
 
 <h4 align="center">
@@ -56,7 +56,7 @@ Projeto feito do zero para treino da tecnologia ReactNative, Aplicativo de cadas
 É preciso ter essas programas instalados em sua máquina:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
 Editor usado para desenvolvimento da aplicação [VSCode](https://code.visualstudio.com/).
-Android studio[AndroidStudio](https://developer.android.com/studio) e Expo[Expo](https://expo.dev/) para emulação da aplicação.
+[AndroidStudio](https://developer.android.com/studio) e [Expo](https://expo.dev/) para emulação da aplicação.
 
 #### 🧭 Iniciando a aplicação
 
