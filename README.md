@@ -56,7 +56,8 @@ Projeto feito do zero para treino da tecnologia ReactNative, Aplicativo de cadas
 É preciso ter essas programas instalados em sua máquina:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
 Editor usado para desenvolvimento da aplicação [VSCode](https://code.visualstudio.com/).
-[AndroidStudio](https://developer.android.com/studio) e [Expo](https://expo.dev/) para emulação da aplicação.
+
+Para emulação da aplicação é necessário ter [AndroidStudio](https://developer.android.com/studio) e [Expo](https://expo.dev/).
 
 #### 🧭 Iniciando a aplicação
 
