@@ -1,4 +1,4 @@
-import { VStack, Heading, Icon, useTheme } from 'native-base'
+import { VStack, Heading, Icon, useTheme, Text, Link } from 'native-base'
 import { Envelope, Key } from 'phosphor-react-native'
 import { useState } from 'react'
 import auth from '@react-native-firebase/auth'
@@ -7,6 +7,7 @@ import Logo from '../assets/logo_primary.svg'
 import { Button } from '../components/Button'
 import { Input } from '../components/Input'
 import { Alert } from 'react-native'
+import { useNavigation } from '@react-navigation/native';
 
 
 export function Signin() {
@@ -15,6 +16,12 @@ export function Signin() {
     const [isLoading, setIsLoading] = useState(false);
 
     const { colors } = useTheme();
+
+    const navigation = useNavigation()
+
+    function handleGoCreateAccount() {
+        navigation.navigate('account')
+    }
 
     function handleSingIn() {
         if (!email || !password) {
@@ -25,7 +32,7 @@ export function Signin() {
 
         auth()
             .signInWithEmailAndPassword(email, password)
-            .then((r) =>{})
+            .then(() => { })
             .catch(error => {
                 console.log(error.code)
                 setIsLoading(false)
@@ -71,6 +78,17 @@ export function Signin() {
                 onPress={handleSingIn}
                 isLoading={isLoading}
             />
+
+            <VStack flex={1} direction="row" justifyContent="center" alignItems="center">
+                <Text color="gray.100" fontSize="md" mr={2}>
+                    Não tem uma conta?
+                </Text>
+                <Link onPress={handleGoCreateAccount}>
+                    <Text color="green.500" fontSize="md" mr={2}>
+                        cadastre-se agora!
+                    </Text>
+                </Link >
+            </VStack>
 
         </VStack>
     )
