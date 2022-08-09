@@ -43,7 +43,8 @@ Projeto feito do zero para treino da tecnologia ReactNative, Aplicativo de cadas
 
 ## [](https://github.com/lsferreira934/RocketHelp---ReactNative#-%EF%B8%8F-funcionalidades) ⚙️ Funcionalidades
 
-- Tele de login
+- Tela de login
+- Tela de cadastro
 - Criação de solicitações informando o número de "patrimônio" e a "descrição do problema"
 - Acompanhar solicitações em "andamento" ou "finalizadas"
 - Encerrar solicitações informando a "solução"
