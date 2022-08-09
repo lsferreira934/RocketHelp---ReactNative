@@ -8,8 +8,6 @@ import { AppStack } from "./AppStack";
 export function Router() {
     const [loading, setLoading] = useState(true);
     const [user, setUser] = useState<FirebaseAuthTypes.User>(null);
-
-   // const authContext = useContext();
   
     useEffect(() => {
       const subscribe = auth().onAuthStateChanged(response => {
